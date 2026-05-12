@@ -137,13 +137,13 @@
             <div class="flex pl-10">
                 <h1 class="pr-6 text-white">DANIELS</h1>
             </div>
-            <div class="flex gap-4 pr-28 text-white">
+            <div class="flex gap-4 pr-10 text-white">
                 <a href="daoure.html">
                     <h2>Daoure</h2>
                 </a>
             </div>
         </div>
-        <div class="flex flex-col justify-center items-center gap-4 h-[615px] text-white sm:w-full">
+        <div class="flex flex-col justify-center items-center gap-4 h-[615px] w- text-white">
             <h1 class="text-5xl">Hello</h1>
             <div class="flex gap-2 text-5xl">
                 <span class="text t1">Je suis </span>
@@ -171,11 +171,11 @@
     <!-- about -->
     <section id="about" class="grid grid-cols-1 min-h-screen w-full md:grid-cols-1 lg:grid-cols-2">
         <div class="flex flex-rows grid w-full md:grid-cols-1 lg:grid-cols-2">
-            <div class="flex ml-20 w-full">
-                <img src="hero.jpg" alt="Photo" class="flex mt-20 h-4/5 w-3/4 h-[100vh] w-[100vh]">
+            <div class="flex w-full">
+                <img src="daoure-images/hero.jpg" alt="Photo" class="flex mt-20 h-4/5 w-3/4 h-[100vh] w-[90vh]">
             </div>
-            <div class="grid ml-4 h-full md:w-full lg:w-full">
-                <div class="flex flex-col pl-40 w-96 w-1/2 sm:h-1/2 md:w-96 lg:pt-20">
+            <div class="grid h-full md:w-full lg:w-full">
+                <div class="flex flex-col pl-4 w-96 w-1/2 sm:h-1/2 md:w-96 lg:pt-20">
                     <div class="flex flex-col">
                         <h1 class="font-black fond-bold lg:text-3xl">About Me.</h1>
                         <p class="font-mono">UI / UX Designer & Web Developer</p>
@@ -198,11 +198,11 @@
                         containing</p>
                 </div>
                 <br>
-                <div class="flex flex-col justify-center gap-2 ml-4 pl-40 lg:items-center">
-                    <div class="bg-[#C0C0C0] rounded-full md:w-[560px] lg:w-[600px]">
+                <div class="flex flex-col justify-center gap-2 ml-4 lg:items-center">
+                    <div class="w-96 h-8 bg-[#C0C0C0] rounded-full md:w-[560px] lg:w-[600px]">
                         <div class="p-0.5 h-full w-[95%] text-white font-medium text-xl bg-[#1c1c1c] rounded-lg">
                             <span class="pl-4 text-left">Web Design</span>
-                            <span class="pl-40 md:pl-80 lg:pl-96">95%</span>
+                            <span class="pl-48 md:pl-80 lg:pl-80">95%</span>
                         </div>
                     </div>
                     <div class="w-96 h-8 bg-[#C0C0C0] rounded-full md:w-[560px] lg:w-[600px]">
@@ -214,11 +214,11 @@
                     <div class="w-96 h-8 bg-[#C0C0C0] rounded-full md:w-[560px] lg:w-[600px]">
                         <div class="p-0.5 h-full w-[90%] text-white font-medium text-xl bg-[#1c1c1c] rounded-lg">
                             <span class="pl-4 text-left">Development</span>
-                            <span class="pl-40 md:pl-80 lg:pl-80">90%</span>
+                            <span class="pl-44 md:pl-80 lg:pl-80">90%</span>
                         </div>
                     </div>
                 </div>
-                <div class="flex gap-2 pt-10 pl-40 lg:pt-20">
+                <div class="flex gap-2 pt-10 lg:pt-20">
                     <button
                         class="h-10 w-40 text-white bg-[#1c1c1c] rounded-lg hover:bg-[#f7f7f7] hover:text-[#1c1c1c]">Download
                         C.V</button>
@@ -232,7 +232,7 @@
     <!-- services -->
     <section id="services" class="min-h-screen bg-[#C0C0C0]">
         <h1 class="flex items-center justify-center text-center text-5xl font-black lg:h-20">Services</h1>
-        <div class="flex grid grid-cols-1 grid-row-2 gap-2 ml-4 p-10 md:grid-cols-1 lg:grid-cols-3">
+        <div class="flex grid grid-cols-1 grid-row-2 gap-2 pl-4 md:grid-cols-1 lg:grid-cols-3">
             <div
                 class="flex flex-col grid-cols-1 justify-center items-center h-72 w-96 bg-[#fff] rounded-lg md:w-[100vh] lg:w-72">
                 <div
@@ -345,7 +345,7 @@
         </div>
     </section>
     <!-- clients -->
-    <section id="clients" class="min-h-screen bg-[#C0C0C0]">
+    <section id="clients" class="min-h-screen bg-[#C0C0C0] stats">
         <h1 class="flex items-center justify-center h-20 text-center text-5xl font-black">Testimonials.</h1>
         <div class="flex flex-col grid grid-cols-1 slider">
             <div class="flex grid grid-cols-1 gap-4 slider" id="slider">
@@ -382,25 +382,25 @@
                 <span class="dot"></span>
                 <span class="dot"></span>
             </div>
-            <div class="flex grid grid-cols-1 items-center gap-2 h-full w-full h-60 bg-[#fff] lg:grid-cols-4">
-                <div class="flex flex-col justify-center items-center lg:w-1/4">
+            <div class="flex grid grid-cols-1 items-center justify-center ml-6 w-[90%] bg-[#fff] lg:grid-cols-4">
+                <div class="flex flex-col justify-center items-center lg:w-40">
                     <i class="text-2xl fa fa-users lg:pb-4" aria-hidden="true"></i>
-                    <h2 class="text-3xl font-bold">850</h2>
+                    <h2 class="text-3xl font-bold number" data-target="850">0</h2>
                     <p>Happy Customers</p>
                 </div>
-                <div class="flex flex-col justify-center items-center lg:w-1/4">
+                <div class="flex flex-col justify-center items-center lg:w-40">
                     <i class="text-2xl fa fa-thumbs-up lg:pb-4" aria-hidden="true"></i>
-                    <h2 class="text-3xl font-bold">230</h2>
+                    <h2 class="text-3xl font-bold number" data-target="230">0</h2>
                     <p>Complete Projects</p>
                 </div>
-                <div class="flex flex-col justify-center items-center lg:w-1/4">
+                <div class="flex flex-col justify-center items-center lg:w-40">
                     <i class="text-2xl fa fa-bullhorn lg:pb-4" aria-hidden="true"></i>
-                    <h2 class="text-3xl font-bold">9450</h2>
+                    <h2 class="text-3xl font-bold number" data-target="9450">0</h2>
                     <p>Lines Of Code</p>
                 </div>
-                <div class="flex flex-col justify-center items-center lg:w-1/4">
+                <div class="flex flex-col justify-center items-center lg:w-40">
                     <i class="text-2xl fa fa-cloud-download lg:pb-4" aria-hidden="true"></i>
-                    <h2 class="text-3xl font-bold">780</h2>
+                    <h2 class="text-3xl font-bold number" data-target="780">0</h2>
                     <p>Files Downloaded</p>
                 </div>
             </div>
@@ -481,20 +481,18 @@
 
     </section>
     <!-- contact -->
-    <section id="contact" class="min-h-screen bg-[#C0C0C0]">
+    <section id="contact" class="min-h-screen">
         <h1 class="flex items-center justify-center h-20 text-center text-5xl font-black">Contact Us.</h1>
-        <div class="flex flex-rows grid grid-cols-1 ml-10 ml-40 ml-4 w-3/4 bg-[#fff] lg:grid-cols-4">
-            <div class="flex flex-col justify-center items-center h-20 h-40 w-full lg:w-2/3">
-                <div
-                    class="flex justify-center items-center w-10 bg-[#f4f4f4] rounded-full hover:bg-[#343434] hover:text-[#fff] lg:h-10">
+        <div class="flex flex-rows grid grid-cols-1 ml-1 w-full bg-[#fff] lg:grid-cols-4">
+            <div class="flex flex-col justify-center items-center h-20 w-full lg:w-full">
+                <div class="flex justify-center items-center w-10 h-10 bg-[#f4f4f4] rounded-full lg:h-10">
                     <i class="fa fa-location-arrow" aria-hidden="true"></i>
                 </div>
                 <h6 class="text-2xl fond-bold">Address</h6>
                 <p>6834 Hollywood Blvd - Los Angeles CA</p>
             </div>
             <div class="flex flex-col justify-center items-center h-20 lg:w-2/3">
-                <div
-                    class="flex justify-center items-center w-10 bg-[#f4f4f4] rounded-full hover:bg-[#343434] hover:text-[#fff] lg:h-10">
+                <div class="flex justify-center items-center w-10 h-10 bg-[#f4f4f4] rounded-full lg:h-10">
                     <i class="fa fa-envelope" aria-hidden="true"></i>
                 </div>
                 <h6 class="text-2xl fond-bold">Email</h6>
@@ -502,28 +500,20 @@
             </div>
             <div class="flex flex-col justify-center items-center h-20 lg:w-2/3">
                 <div
-                    class="flex justify-center items-center w-10 bg-[#f4f4f4] rounded-full hover:bg-[#343434] hover:text-[#fff] lg:h-10">
+                    class="flex justify-center items-center w-10 h-10 bg-[#f4f4f4] rounded-full hover:bg-[#343434] hover:text-[#fff] lg:h-10">
                     <i class="fa fa-phone" aria-hidden="true"></i>
                 </div>
                 <h6 class="text-2xl fond-bold">Phone</h6>
                 <p>+20 010 2517 8918</p>
             </div>
-            <div class="flex flex-col justify-center items-center h-20 lg:w-2/3">
-                <div
-                    class="flex justify-center items-center w-10 bg-[#f4f4f4] rounded-full hover:bg-[#343434] hover:text-[#fff] lg:h-10">
-                    <i class="fa fa-location-arrow" aria-hidden="true"></i>
-                </div>
-                <h6 class="text-2xl fond-bold">Address</h6>
-                <p>6834 Hollywood Blvd - Los Angeles CA</p>
-            </div>
         </div>
         <br>
         <div class="flex gap-4 ml-10 w-3/4 h-10 lg:ml-40">
-            <input type="text" placeholder="Name" required class="w-full bg-[#fff]">
-            <input type="email" required placeholder="Email" class="w-full bg-[#fff]">
+            <input type="text" placeholder="Name" required class="w-full bg-[#C0C0C0]">
+            <input type="email" required placeholder="Email" class="w-full bg-[#C0C0C0]">
         </div>
         <br>
-        <textarea name="" id="" class="ml-10 w-3/4 h-52 bg-[#fff] lg:ml-40">Message</textarea>
+        <textarea name="" id="" class="ml-10 w-3/4 h-52 bg-[#C0C0C0] lg:ml-40">Message</textarea>
         <br>
         <button class="ml-10 mb-4 w-28 h-10 text-white bg-[#1c1c1c] rounded-lg lg:ml-40">Submit</button>
     </section>
@@ -670,6 +660,43 @@
 
         /* Défilement automatique */
         setInterval(nextSlide, 2500);
+    </script>
+    <script>
+        const numbers = document.querySelectorAll(".number");
+
+        let started = false;
+
+        window.addEventListener("scroll", () => {
+
+            const section = document.querySelector(".stats");
+            const sectionTop = section.offsetTop;
+
+            if (window.scrollY > sectionTop - 400 && !started) {
+
+                numbers.forEach((num) => {
+
+                    let target = +num.getAttribute("data-target");
+                    let count = 0;
+
+                    let interval = setInterval(() => {
+
+                        count += Math.ceil(target / 100);
+
+                        if (count >= target) {
+                            count = target;
+                            clearInterval(interval);
+                        }
+
+                        num.innerText = count;
+
+                    }, 20);
+
+                });
+
+                started = true;
+            }
+
+        });
     </script>
 </body>
 
