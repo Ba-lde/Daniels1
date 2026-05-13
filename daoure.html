@@ -149,6 +149,19 @@
                 <span class="text t1">Je suis </span>
                 <span class="text t2" id="type"></span>
             </div>
+            <div class="overflow-hidden relative w-80 rounded-2xl shadow-xl">
+
+                <video id="video" class="w-full">
+                    <source src="daoure-images/d53ec83d962605e32b0f16bf301e57f5_1774886234991~2.mp4" type="video/mp4">
+                    Votre navigateur ne supporte pas la vidéo.
+                </video>
+
+                <button id="playBtn"
+                    class="absolute inset-0 flex items-center justify-center m-auto w-20 h-20 text-3xl bg-white/80 rounded-full shadow-lg hover:bg-white transition">
+                    ▶
+                </button>
+
+            </div>
             <div class="flex flex-clos gap-4">
                 <div class="flex items-center justify-center h-8 w-8 bg-[#C0C0] rounded-full"><a href=""><i
                             class="fa-brands fa-facebook"></i></a>
@@ -696,6 +709,20 @@
                 started = true;
             }
 
+        });
+    </script>
+    <!-- vidéo -->
+    <script>
+        const video = document.getElementById("video");
+        const playBtn = document.getElementById("playBtn");
+
+        playBtn.addEventListener("click", () => {
+            video.play();
+            playBtn.style.display = "none";
+        });
+
+        video.addEventListener("pause", () => {
+            playBtn.style.display = "flex";
         });
     </script>
 </body>
